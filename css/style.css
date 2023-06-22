@@ -1,0 +1,72 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  font-size: 1.6rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #56ccde;
+}
+
+span{
+  display: block;
+}
+
+.form{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.field{
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns:  1.5rem 1fr 4rem;
+  padding: 1rem;
+}
+
+.focused-filed{
+  border: 2px solid #56ccde;
+}
+
+.email-sign{
+  color: #ccc;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.username-input{
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+.username-input::placeholder{
+  color: #ccc;
+}
+
+.length-counter{
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  color: #ccc;
+  text-align: center;
+}
+
+
+.active-color{
+  color: #56ccde;
+}
